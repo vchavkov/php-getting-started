@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e66fd5c3f8342ff9ed1f0d21aab6ef81",
+    "content-hash": "9f9d63d9c04fa38215ac3a2ecf2ed90f",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -245,7 +245,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.9",
+                "php": ">=7.1.3",
                 "pimple/pimple": "^3.0",
                 "symfony/event-dispatcher": "^4.0",
                 "symfony/http-foundation": "^4.0",
@@ -928,52 +928,7 @@
             "time": "2018-07-13T07:18:09+00:00"
         }
     ],
-    "packages-dev": [
-        {
-            "name": "heroku/heroku-buildpack-php",
-            "version": "v143",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "1cdd477661d3da7434efe5fedcb42d7b42503b8d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/1cdd477661d3da7434efe5fedcb42d7b42503b8d",
-                "reference": "1cdd477661d3da7434efe5fedcb42d7b42503b8d",
-                "shasum": ""
-            },
-            "bin": [
-                "bin/heroku-hhvm-apache2",
-                "bin/heroku-hhvm-nginx",
-                "bin/heroku-php-apache2",
-                "bin/heroku-php-nginx"
-            ],
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David Zuelke",
-                    "email": "dz@heroku.com"
-                }
-            ],
-            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP/HHVM and Apache2/Nginx as on Heroku",
-            "homepage": "https://github.com/heroku/heroku-buildpack-php",
-            "keywords": [
-                "apache",
-                "apache2",
-                "foreman",
-                "heroku",
-                "hhvm",
-                "nginx",
-                "php"
-            ],
-            "time": "2018-08-17T16:27:37+00:00"
-        }
-    ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
