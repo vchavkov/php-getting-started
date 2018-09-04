@@ -1,6 +1,6 @@
 {
-  "name": "Start on Dokku: PHP",
-  "description": "A barebones PHP app",
+  "name": "Kistarter for PHP",
+  "description": "Kistarter for PHP",
   "repository": "https://github.com/vchavkov/php-getting-started",
   "addons": []
 }
