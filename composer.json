@@ -1,4 +1,5 @@
 {
-  "require" : {
+  "require": {
+    "hhvm": "^3.0.1"
   }
 }
